@@ -9,12 +9,12 @@
 
 .general-header {
   padding: 0 40px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 .contacts {
   background-color: var(--head-bg);
   border-radius: 0 0 40px 40px;
-  font-family: 'Inter', Helvetica, sans-serif;
   font-style: normal;
   font-size: 14px;
   display: flex;
