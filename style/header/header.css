@@ -100,7 +100,6 @@
   display: flex;
   align-items: center;
   position: relative;
-  padding-left: 32px;
   padding: 17px 0 17px 32px;
   color: var(--second-option-two);
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -162,10 +161,19 @@
   color: var(--main);
 }
 
+.lang-btn:hover {
+  background-color: var(--light-transparent-bg-two);
+  border: 2px solid #fff;
+}
+
 .order-btn {
   background-color: var(--light-transparent-bg-one);
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 19px;
   color: var(--main);
+}
+
+.order-btn:hover {
+  background-color: var(--light-transparent-bg-two);
 }
