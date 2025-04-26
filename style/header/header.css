@@ -163,7 +163,7 @@
 
 .lang-btn:hover {
   background-color: var(--light-transparent-bg-two);
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 
 .order-btn {
