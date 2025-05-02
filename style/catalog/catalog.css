@@ -85,6 +85,10 @@
   cursor: pointer;
 }
 
+.selector:hover .hov-color {
+  fill: #fff;
+}
+
 .title-product {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400;
