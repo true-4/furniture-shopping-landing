@@ -1,0 +1,13 @@
+@import './variables/variables.css';
+@import './reset/reset.css';
+@import './fonts/fonts.css';
+
+@import './header/header.css';
+@import './welcome/welcome.css';
+@import './catalog/catalog.css';
+@import './notification/notification.css';
+@import './achievements/achievements.css';
+@import './ready-made-solutions/ready-made-solutions.css';
+@import './answers-to-questions/answers-to-questions.css';
+@import './map/map.css';
+@import './footer/footer.css';

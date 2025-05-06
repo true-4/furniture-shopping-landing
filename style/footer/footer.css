@@ -1,0 +1,21 @@
+@import '../variables/variables.css';
+@import '../reset/reset.css';
+@import '../fonts/fonts.css';
+
+.footer-contacts {
+  padding: 64px 0;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 63px;
+}
+
+.footer-year {
+  text-align: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--second-option-two);
+}

@@ -1,0 +1,57 @@
+@import '../variables/variables.css';
+@import '../reset/reset.css';
+@import '../fonts/fonts.css';
+
+.map-zone {
+  position: relative;
+  z-index: 100;
+}
+
+.map-size {
+  width: 100%;
+  min-height: 560px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 48px 40px;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px;
+  max-width: 590px;
+  position: absolute;
+  top: 86px;
+  left: 231px;
+  z-index: 200;
+  background-color: #fff;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-text-title {
+  font-family: 'Roboto-Serif', Arial, Helvetica, sans-serif;
+  font-weight: medium;
+  font-size: 48px;
+  color: var(--main);
+}
+
+.leave-a-request {
+  color: #fff;
+  background-color: var(--main);
+  padding: 14px 25px;
+  border-radius: 500px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  max-width: 210px;
+  cursor: pointer;
+}
+
+.leave-a-request:hover {
+  background-color: var(--second-option-one);
+}

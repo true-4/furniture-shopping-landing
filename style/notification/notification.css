@@ -1,0 +1,65 @@
+@import '../variables/variables.css';
+@import '../reset/reset.css';
+@import '../fonts/fonts.css';
+
+.wrapper-notification {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.content-location {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--secondary-emphasis-two);
+  padding: 55px 0;
+}
+
+.notification-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.we-deliver {
+  font-family: 'Roboto-Serif', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  color: #fff;
+}
+
+.advertising-signature {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+.user-details {
+  display: flex;
+  gap: 12px;
+}
+
+.user-email {
+  padding: 14px 16px;
+  border-radius: 12px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--second-option-two);
+}
+
+.send {
+  background-color: var(--main);
+  color: #fff;
+  padding: 14px 25px;
+  border-radius: 16px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.send:hover {
+  background-color: var(--second-option-one);
+}

@@ -1,0 +1,15 @@
+:root {
+  --main: #21282B;
+  --head-bg: #F6F4F3;
+  --second-option-one: #21282B99;
+  --second-option-two: #21282B80;
+  --secondary-emphasis-one: #FF5F00;
+  --secondary-emphasis-two: #E85600;
+  --light-transparent-bg-one: #4B3B3124;
+  --light-transparent-bg-two: #4B3B311A;
+  --light-transparent-bg-three: #4B3B310F;
+  --Light-opaque-bg: #21282B80;
+  --error: #FF3333;
+  --success: #084915;
+  --success-bg: #0D9C2A1A;
+}

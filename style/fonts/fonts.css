@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Inter";
+  src: local('Inter'),
+    url('../../fonts/inter/Inter-Medium.woff2') format('woff2'),
+    url('../../fonts/inter/static/Inter_18pt-Light.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: "Roboto-Serif";
+  src: local('Roboto-Serif'),
+    url('../../fonts/robotoSerif/RobotoSerif_28pt-Light.woff2') format('woff2'),
+    url('../../fonts/robotoSerif/static/RobotoSerif-Light.ttf') format('ttf');
+}

@@ -1,0 +1,78 @@
+@import '../variables/variables.css';
+@import '../reset/reset.css';
+@import '../fonts/fonts.css';
+
+.achievements-content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 80px;
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.icon-size {
+  width: 52px;
+  height: 52px;
+}
+
+.title-achievements {
+  font-family: 'Roboto-Serif', Arial, Helvetica, sans-serif;
+  font-weight: medium;
+  font-size: 48px;
+  color: var(--main);
+}
+
+.achievements-statistics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.statistics-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  place-items: center;
+  gap: 64px 32px;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 280px;
+  text-align: center;
+}
+
+.big-number {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--secondary-emphasis-two);
+}
+
+.name-stat {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--main);
+}
+.paragraph-stat {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--second-option-two);
+}
+
+.bg-img {
+  width: 586px;
+  height: 616px;
+  border-radius: 60px;
+  background-image: url('../../img/img_achievements/table-wit-a-cup-of-coffee.jpg');
+  background-size: cover;
+  background-position-y: center;
+}

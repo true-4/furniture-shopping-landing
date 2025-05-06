@@ -1,0 +1,115 @@
+@import '../variables/variables.css';
+@import '../reset/reset.css';
+@import '../fonts/fonts.css';
+
+.answers-to-questions {
+  padding: 80px 0;
+}
+
+.answers-to-questions-title {
+  font-family: 'Roboto-Serif', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  padding: 48px;
+}
+
+.answers-to-questions-content {
+  max-width: 710px;
+  margin: 0 auto;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accordion-card {
+  padding: 24px;
+  border: 1px solid var(--light-transparent-bg-three);
+  border-radius: 30px;
+}
+
+.question {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-name {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--main);
+}
+
+.toggle-question {
+  display: none;
+}
+
+.toggle-answer {
+  cursor: pointer;
+  transition: 0.3s;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-question:checked + .toggle-answer {
+  transform: rotate(45deg);
+  background-color: black;
+  border-radius: 500px;
+}
+
+.toggle-question:checked + .toggle-answer .color-change {
+  fill: #fff;
+}
+
+.answer {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  display: none;
+  padding-top: 11px;
+}
+
+.toggle-question:checked + .toggle-answer + .answer {
+  display: block;
+}
+
+.additional-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding-top: 48px;
+}
+
+.additional-questions-text {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--second-option-two);
+  max-width: 420px;
+  text-align: center;
+}
+
+.ask-a-question {
+  background-color: var(--light-transparent-bg-one);
+  color: var(--main);
+  padding: 14px 25px;
+  border-radius: 500px;
+  text-align: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.ask-a-question:hover {
+  background-color: var(--light-transparent-bg-two);
+}
